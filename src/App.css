@@ -31,23 +31,26 @@
     transform: rotate(360deg);
   }
 }
-.picture{
+/* .card{
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-}
-h1{
+} */
+.card-title{
   font-size: 30px;
 }
-img{
-
-}
-h2{
+.card-subtitle{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
-p{
-  width: 80%;
+card-body{
+  align-items: center;
+
+  
+}
+
+.card-text{
+  /* width: 800px; */
+  background-color: #61dafb;
+  /* text-align: center; */
 }
